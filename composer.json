@@ -1,0 +1,40 @@
+{
+    "name": "numero2/contao-form-codes",
+    "type": "contao-bundle",
+    "description": "Code management (e.g. coupons) and automatic distribution using Contao forms",
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "numero2 - Agentur für digitales Marketing GbR",
+            "homepage": "https://numero2.de"
+        }
+    ],
+    "require": {
+        "contao/core-bundle": "^4.13 || ^5.0",
+        "terminal42/notification_center": "^1.7"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.0"
+    },
+    "conflict": {
+        "contao/core": "*",
+        "contao/manager-plugin": "<2.0 || >=3.0"
+    },
+    "extra": {
+        "contao-manager-plugin": "numero2\\FormCodesBundle\\ContaoManager\\Plugin"
+    },
+    "autoload": {
+        "psr-4": {
+            "numero2\\FormCodesBundle\\": "src/"
+        },
+        "classmap": [
+            "contao/"
+        ],
+        "exclude-from-classmap": [
+            "contao/config/",
+            "contao/dca/",
+            "contao/languages/",
+            "contao/templates/"
+        ]
+    }
+}

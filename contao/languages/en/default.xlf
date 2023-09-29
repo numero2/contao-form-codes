@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+<file>
+<body>
+    <trans-unit id="MSC.form_codes">
+        <target>Codes verwalten</target>
+    </trans-unit>
+    <trans-unit id="MSC.import">
+        <target>Importieren</target>
+    </trans-unit>
+    <trans-unit id="MSC.numFormCodesImported">
+        <target>%d neue Codes wurden erfolgreich importiert</target>
+    </trans-unit>
+    <trans-unit id="ERR.noFormCodesImported">
+        <target>Es konnten keine Codes importiert werden</target>
+    </trans-unit>
+</body>
+</file>
+</xliff>

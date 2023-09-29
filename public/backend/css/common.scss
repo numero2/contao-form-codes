@@ -1,0 +1,55 @@
+// main: backend.scss
+@import "colors";
+
+.header_form_codes_import {
+
+    background-image: url('/bundles/formcodes/backend/img/icon_codes.svg');
+}
+
+#tl_listing {
+
+    th, td {
+
+        &.col_claimed {
+            text-align: center;
+            width: 70px;
+        }
+    }
+
+    td {
+
+        .form_codes {
+
+            &.claimed {
+
+                position: relative;
+                color: transparent;
+                
+                &:after {
+                    
+                    content: "";
+
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translateX(-50%) translateY(-50%);
+
+                    display: block;
+                    width: 1em;
+                    height: 1em;
+                    background: url('/bundles/formcodes/backend/img/icon_tick.svg') no-repeat scroll 50% 50%;
+                    background-size: contain;
+                }
+
+                &:not(.yes):after {
+                    filter: grayscale(1);
+                    opacity: 0.25;
+                }
+            }
+
+            &.code {
+                font-family: monospace;
+            }
+        }
+    }
+}

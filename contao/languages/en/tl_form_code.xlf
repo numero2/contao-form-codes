@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+<file>
+<body>
+    <!-- ACTIONS -->
+    <trans-unit id="tl_form_code.importFormCodes.1">
+        <target>Importieren</target>
+    </trans-unit>
+    <trans-unit id="tl_form_code.import.0">
+        <target>Importieren</target>
+    </trans-unit>
+    <trans-unit id="tl_form_code.import.1">
+        <target>Mehrere Codes auf einmal importieren</target>
+    </trans-unit>
+    <!-- LEGENDS -->
+    <trans-unit id="tl_form_code.common_legend">
+        <target>Allgemein</target>
+    </trans-unit>
+    <trans-unit id="tl_form_code.publish_legend">
+        <target>Veröffentlichung</target>
+    </trans-unit>
+    <!-- FIELDS -->
+    <trans-unit id="tl_form_code.tstamp.0">
+        <target>Änderungsdatum</target>
+    </trans-unit>
+    <trans-unit id="tl_form_code.tstamp.1">
+        <target>Datum und Uhrzeit der letzten Änderung</target>
+    </trans-unit>
+    <trans-unit id="tl_form_code.code.0">
+        <target>Code</target>
+    </trans-unit>
+    <trans-unit id="tl_form_code.code.1">
+        <target>Bitte geben Sie den Code ein.</target>
+    </trans-unit>
+    <trans-unit id="tl_form_code.published.0">
+        <target>Veröffentlichen</target>
+    </trans-unit>
+    <trans-unit id="tl_form_code.published.1">
+        <target>Den Code dem Formular zur Verfügung stellen.</target>
+    </trans-unit>
+    <trans-unit id="tl_form_code.claimed.0">
+        <target>Eingelöst?</target>
+    </trans-unit>
+    <trans-unit id="tl_form_code.claimed.1">
+        <target>Wurde der Code schon von einem Nutzer beansprucht / eingelöst?</target>
+    </trans-unit>
+    <trans-unit id="tl_form_code.codes.0">
+        <target>Codes</target>
+    </trans-unit>
+    <trans-unit id="tl_form_code.codes.1">
+        <target>Ein Code pro Zeile.</target>
+    </trans-unit>
+    <trans-unit id="tl_form_code.member.0">
+        <target>Mitglied</target>
+    </trans-unit>
+    <trans-unit id="tl_form_code.member.1">
+        <target></target>
+    </trans-unit>
+    <trans-unit id="tl_form_code.form_data.0">
+        <target>Formulardaten</target>
+    </trans-unit>
+    <trans-unit id="tl_form_code.form_data.1">
+        <target></target>
+    </trans-unit>
+</body>
+</file>
+</xliff>

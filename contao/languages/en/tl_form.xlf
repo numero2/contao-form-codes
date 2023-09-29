@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+<file>
+<body>
+    <!-- ACTIONS -->
+    <trans-unit id="tl_form.codes">
+        <target>Codes des Formulars ID %s anzeigen</target>
+    </trans-unit>
+    <!-- LEGENDS -->
+    <trans-unit id="tl_form.form_codes_legend">
+        <target>Codes</target>
+    </trans-unit>
+    <!-- FIELDS -->
+    <trans-unit id="tl_form.has_form_codes.0">
+        <target>Für Codes benutzen?</target>
+    </trans-unit>
+    <trans-unit id="tl_form.has_form_codes.1">
+        <target>Soll dieses Formular für den Versand von Codes genutzt werden?</target>
+    </trans-unit>
+</body>
+</file>
+</xliff>

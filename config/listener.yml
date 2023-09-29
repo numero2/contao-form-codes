@@ -1,0 +1,18 @@
+services:
+    _defaults:
+        public: true
+
+    numero2.form_codes.listener.data_container.form_code:
+        class: numero2\FormCodesBundle\EventListener\DataContainer\FormCodeListener
+        arguments:
+            - '@contao.framework'
+            - '@database_connection'
+
+    numero2.form_codes.listener.data_container.form:
+        class: numero2\FormCodesBundle\EventListener\DataContainer\FormListener
+
+    numero2.form_codes.listener.hooks.form:
+        class: numero2\FormCodesBundle\EventListener\Hooks\FormListener
+        arguments:
+            - '@service_container'
+            - '@request_stack'

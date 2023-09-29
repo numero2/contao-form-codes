@@ -1,0 +1,35 @@
+.header_form_codes_import {
+  background-image: url("/bundles/formcodes/backend/img/icon_codes.svg");
+}
+
+#tl_listing th.col_claimed, #tl_listing td.col_claimed {
+  text-align: center;
+  width: 70px;
+}
+
+#tl_listing td .form_codes.claimed {
+  position: relative;
+  color: transparent;
+}
+
+#tl_listing td .form_codes.claimed:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 1em;
+  height: 1em;
+  background: url("/bundles/formcodes/backend/img/icon_tick.svg") no-repeat scroll 50% 50%;
+  background-size: contain;
+}
+
+#tl_listing td .form_codes.claimed:not(.yes):after {
+  filter: grayscale(1);
+  opacity: 0.25;
+}
+
+#tl_listing td .form_codes.code {
+  font-family: monospace;
+}
